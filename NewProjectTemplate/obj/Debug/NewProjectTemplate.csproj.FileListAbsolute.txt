@@ -1,0 +1,14 @@
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.pdb
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Binding.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Core.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Localization.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Platform.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Platform.pdb
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Core.pdb
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Binding.pdb
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/MvvmCross.Localization.pdb
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.csprojResolveAssemblyReference.cache
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.csproj.CoreCompileInputs.cache
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.dll
+/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.pdb
