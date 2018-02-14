@@ -1,4 +1,6 @@
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
+using NewProjectTemplate.Services;
 
 namespace NewProjectTemplate
 {
@@ -6,10 +8,11 @@ namespace NewProjectTemplate
     {
         public override void Initialize()
         {
-            CreatableTypes()
+            /* CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()
-                .RegisterAsLazySingleton();
+                .RegisterAsLazySingleton(); */
+            Mvx.RegisterType<IListPopulatorService, ListPopulatorService>();
 
             RegisterAppStart<ViewModels.MainViewModel>();
         }

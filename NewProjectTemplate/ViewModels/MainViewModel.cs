@@ -1,18 +1,43 @@
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
+using NewProjectTemplate.Services;
 
 namespace NewProjectTemplate.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
-        public MainViewModel()
+        private IListPopulatorService _populatorService;
+        private string _classList;
+        public string ClassList
         {
+            get
+            {
+                return _classList;
+            }
+            set
+            {
+                _classList = value;
+            }
+        }
+
+        public MainViewModel(IListPopulatorService service)
+        {
+            _populatorService = service;
         }
         
         public override Task Initialize()
         {
-            //TODO: Add starting logic here
-		    
+
+            var classes = _populatorService.GetAvailableCourses();
+            StringBuilder sb = new StringBuilder();
+            foreach(string s in classes)
+            {
+                sb.Append($"{s} \n");
+            }
+            // classes.Select(c => sb.Append($"{c} \n"));
+            _classList = sb.ToString();
             return base.Initialize();
         }
         
