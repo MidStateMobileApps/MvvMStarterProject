@@ -1,4 +1,7 @@
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
+using NewProjectTemplate;
+using NewProjectTemplate.Services;
 
 namespace NewProjectTemplate
 {
@@ -10,6 +13,8 @@ namespace NewProjectTemplate
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
+
+            Mvx.RegisterType<IlistPopulatorService, ListPopulatorService>();
 
             RegisterAppStart<ViewModels.MainViewModel>();
         }
