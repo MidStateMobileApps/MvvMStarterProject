@@ -8,12 +8,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="40dp"
-        local:MvxBind="Text Text" />
+        local:MvxBind="Text EditString" />
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="40dp"
-        local:MvxBind="Text Text" />
+        local:MvxBind="Text EditString" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        local:MvxBind="Text ClassList" />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

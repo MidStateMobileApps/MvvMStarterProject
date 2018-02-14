@@ -18,9 +18,9 @@ namespace NewProjectTemplate.iOS.Views
             base.ViewDidLoad();
 
             var set = this.CreateBindingSet<MainView, ViewModels.MainViewModel>();
-            set.Bind(TextField).To(vm => vm.Text);
+            set.Bind(TextField).To(vm => vm.EditString);
             set.Bind(Button).To(vm => vm.ResetTextCommand);
-            set.Bind(LabelField).To(vm => vm.Text);
+            set.Bind(LabelField).To(vm => vm.EditString);
             set.Apply();
         }
     }
