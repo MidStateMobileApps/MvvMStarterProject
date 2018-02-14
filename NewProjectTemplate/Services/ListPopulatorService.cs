@@ -9,12 +9,12 @@ namespace NewProjectTemplate.Services
 {
     class ListPopulatorService : IListPopulatorService
     {
-        MvxViewModel Parent { get; set; }
+        MvxViewModel ThisParent { get; set; }
         public ListPopulatorService()
         {
         }
 
-        MvxViewModel IListPopulatorService.Parent { get { return Parent; } set { Parent = value; } }
+        MvxViewModel IListPopulatorService.Parent { get { return ThisParent; } set { ThisParent = value; } }
 
         public List<string> GetAvailableCourses()
         {
