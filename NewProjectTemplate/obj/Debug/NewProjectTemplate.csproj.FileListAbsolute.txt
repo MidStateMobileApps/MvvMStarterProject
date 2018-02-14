@@ -12,3 +12,17 @@
 /Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.csproj.CoreCompileInputs.cache
 /Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.dll
 /Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/obj/Debug/NewProjectTemplate.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\NewProjectTemplate.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\NewProjectTemplate.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Binding.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Core.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Localization.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Platform.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Core.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Binding.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\bin\Debug\MvvmCross.Localization.pdb
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.csproj.CoreCompileInputs.cache
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.dll
+C:\Users\14886572\Desktop\Mobile\MvvMSterterProjkect\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.pdb
