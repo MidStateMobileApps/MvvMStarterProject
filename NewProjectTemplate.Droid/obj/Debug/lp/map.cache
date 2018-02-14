@@ -5,5 +5,5 @@ MvvmCross.Droid
 MvvmCross.Localization
 MvvmCross.Platform
 MvvmCross.Platform.Droid
-System.Runtime
 NewProjectTemplate
+System.Runtime
