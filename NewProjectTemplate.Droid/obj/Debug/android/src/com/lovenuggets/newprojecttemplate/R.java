@@ -75,9 +75,10 @@ containing a value of this type.
         public static final int myButton=0x7f050002;
     }
     public static final class layout {
-        public static final int main=0x7f040000;
-        public static final int mainview=0x7f040001;
-        public static final int splashscreen=0x7f040002;
+        public static final int listitem_mainmenu=0x7f040000;
+        public static final int main=0x7f040001;
+        public static final int mainview=0x7f040002;
+        public static final int splashscreen=0x7f040003;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;
