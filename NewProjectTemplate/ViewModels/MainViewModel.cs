@@ -2,7 +2,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
+using NewProjectTemplate.Models;
 using NewProjectTemplate.Services;
+using Newtonsoft.Json;
 
 namespace NewProjectTemplate.ViewModels
 {
@@ -11,6 +13,9 @@ namespace NewProjectTemplate.ViewModels
         private IListPopulatorService populatorService;
 
         private string classList;
+
+        private MenuItem menuItem;
+
         public string ClassList
         {
             get
@@ -44,7 +49,18 @@ namespace NewProjectTemplate.ViewModels
             
             return base.Initialize();
         }
-        
+
+        protected override void InitFromBundle(IMvxBundle parameters)
+        {
+            var item = JsonConvert.DeserializeObject<MenuItem>(parameters.Data["MenuItem"]);
+
+            menuItem = new MenuItem(item.Title, null)
+            {
+                Description = item.Description,
+                Title = item.Title            
+            };
+        }
+
         public IMvxCommand ResetTextCommand => new MvxCommand(ResetText);
         private void ResetText()
         {

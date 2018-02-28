@@ -34,7 +34,9 @@ C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPho
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.dll
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.iOS.dll
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\NewProjectTemplate.dll
+C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\NewProjectTemplate.pdb
+C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.pdb
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.iOS.pdb
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Core.pdb

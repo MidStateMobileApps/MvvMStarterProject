@@ -15,7 +15,7 @@ namespace NewProjectTemplate
                  */
 
             Mvx.RegisterType<IListPopulatorService, ListPopulatorService>();
-            RegisterAppStart<ViewModels.MainViewModel>();
+            RegisterNavigationServiceAppStart<ViewModels.MainViewModel>();
         }
     }
 }
