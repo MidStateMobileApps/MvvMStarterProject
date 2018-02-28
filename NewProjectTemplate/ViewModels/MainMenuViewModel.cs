@@ -1,5 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
+using NewProjectTemplate.Models;
 using NewProjectTemplate.Services;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NewProjectTemplate.ViewModels
 {
-    class MainMenuViewModel : MvxViewModel
+    public class MainMenuViewModel : MvxViewModel
     {
         IListPopulatorService _populatorService;
         public MainMenuViewModel(IListPopulatorService service)
@@ -20,5 +22,26 @@ namespace NewProjectTemplate.ViewModels
             _populatorService.Parent = this;
             return base.Initialize();
         }
+
+        public void ShowTheMenuPick(MenuItems item)
+        {
+            string sItem = JsonConvert.SerializeObject(item);
+            Dictionary<string, string> pair = new Dictionary<string, string>()
+            {
+                {"MenuItem", sItem }
+            };
+            MvxBundle bundle = new MvxBundle(pair);
+            ShowViewModel<MainViewModel>(bundle);
+        }
+
+        public async override void Start()
+        {
+            base.Start();
+            MenuItems = await _populatorService.GetMenuItemsAsync();
+            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+        }
+
+        public string Title { get; private set; }
+        public List<MenuItems> MenuItems { get; private set; }
     }
 }

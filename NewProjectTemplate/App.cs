@@ -13,7 +13,6 @@ namespace NewProjectTemplate
                 .AsInterfaces()
                 .RegisterAsLazySingleton(); */
             Mvx.RegisterType<IListPopulatorService, ListPopulatorService>();
-
             RegisterAppStart<ViewModels.MainViewModel>();
         }
     }
