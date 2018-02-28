@@ -26,3 +26,5 @@ C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\obj\Debug
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.dll
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.pdb
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache
+C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate\bin\Debug\Newtonsoft.Json.xml

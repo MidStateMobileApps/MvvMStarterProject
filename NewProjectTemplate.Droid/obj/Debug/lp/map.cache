@@ -6,4 +6,5 @@ MvvmCross.Localization
 MvvmCross.Platform
 MvvmCross.Platform.Droid
 NewProjectTemplate
+Newtonsoft.Json
 System.Runtime

@@ -1,4 +1,5 @@
 ﻿using MvvmCross.Core.ViewModels;
+using NewProjectTemplate.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,8 @@ namespace NewProjectTemplate.Services
     {
         MvxViewModel Parent { get; set; }
         List<string> GetAvailableCourses();
+
+        Task<List<MenuItem>> GetMenuItems();
+
     }
 }
