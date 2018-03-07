@@ -4,18 +4,19 @@ using Newtonsoft.Json;
 
 namespace NewProjectTemplate.Models
 {
-    public class MenuItems
+    public class MenuItem
     {
 
         public string Title { get; set; }
         MainMenuViewModel Parent { get; set; }
         public string Description { get; set; }
-        public MenuItems(string title, MainMenuViewModel parent)
+        public MenuItem(string title, MainMenuViewModel parent)
         {
+            Title = title;
             Parent = parent;
-            ShowCommand = new MvxCommand<MenuItems>((MenuItems obj) => Parent.ShowTheMenuPick(this));
+            ShowCommand = new MvxCommand<MenuItem>((MenuItem obj) => Parent.ShowTheMenuPick(this));
         }
         [JsonIgnore]
-        public IMvxCommand<MenuItems> ShowCommand { get; set; }
+        public IMvxCommand<MenuItem> ShowCommand { get; set; }
     }
 }

@@ -23,7 +23,7 @@ namespace NewProjectTemplate.ViewModels
             return base.Initialize();
         }
 
-        public void ShowTheMenuPick(MenuItems item)
+        public void ShowTheMenuPick(MenuItem item)
         {
             string sItem = JsonConvert.SerializeObject(item);
             Dictionary<string, string> pair = new Dictionary<string, string>()
@@ -34,14 +34,17 @@ namespace NewProjectTemplate.ViewModels
             ShowViewModel<MainViewModel>(bundle);
         }
 
-        public async override void Start()
+        public override void Start()
         {
             base.Start();
-            MenuItems = await _populatorService.GetMenuItemsAsync();
+            MenuItems = new List<MenuItem>()
+            {
+                new MenuItem("Some class 1", this) {Description="A Description"}
+            };//await _populatorService.GetMenuItemsAsync();
             InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
         public string Title { get; private set; }
-        public List<MenuItems> MenuItems { get; private set; }
+        public List<MenuItem> MenuItems { get; private set; }
     }
 }

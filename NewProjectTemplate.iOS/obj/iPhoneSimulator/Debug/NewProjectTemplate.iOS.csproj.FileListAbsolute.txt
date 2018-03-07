@@ -52,3 +52,4 @@ C:\Users\15952624\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectT
 C:\Users\15952624\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.csproj.CoreCompileInputs.cache
 C:\Users\15952624\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.exe
 C:\Users\15952624\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.pdb
+C:\Users\15952624\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\NewProjectTemplate.dll.mdb

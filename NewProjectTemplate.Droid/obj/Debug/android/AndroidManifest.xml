@@ -12,6 +12,7 @@
       </intent-filter>
     </activity>
     <activity android:label="View for MainViewModel" android:name="md56e71ee442faf756c1ae929182ff5bd4e.MainView" />
+    <activity android:label="Main Menu View" android:name="md506b5c5e8c12bcc37b65132f8500124ec.MainMenuView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.lovenuggets.NewProjectTemplate.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

@@ -14,6 +14,6 @@ namespace NewProjectTemplate.Services
 
         List<string> GetAvailableCourses();
 
-        Task<List<MenuItems>> GetMenuItemsAsync();
+        Task<List<MenuItem>> GetMenuItemsAsync();
     }
 }

@@ -50,10 +50,10 @@ namespace NewProjectTemplate.Services
 
         }
 
-        public async Task<List<MenuItems>> GetMenuItemsAsync()
+        public async Task<List<MenuItem>> GetMenuItemsAsync()
         {
             List<string> Courses = GetAvailableCourses();
-            List<MenuItems> items = Courses.Select(s => new MenuItems(s, ThisParent)).ToList();
+            List<MenuItem> items = Courses.Select(s => new MenuItem(s, ThisParent)).ToList();
             foreach(var item in items)
             {
                 item.Description = await GetClassDescription();
