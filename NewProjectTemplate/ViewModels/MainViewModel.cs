@@ -13,6 +13,9 @@ namespace NewProjectTemplate.ViewModels
         private IListPopulatorService populatorService;
         private string classList;
         private MenuItem _menuItem;
+        private string description;
+        private string title;
+
         public string ClassList
         {
             get
@@ -51,12 +54,14 @@ namespace NewProjectTemplate.ViewModels
                 Description = item.Description,
                 Title = item.Title
             };
+            title = _menuItem.Title;
+            description = _menuItem.Description;
         }
 
         public IMvxCommand ResetTextCommand => new MvxCommand(ResetText);
         private void ResetText()
         {
-            Text = "Hello MvvmCross";
+            Title = "Hello MvvmCross";
         }
 
         private string _text = "Hello MvvmCross";
@@ -64,6 +69,18 @@ namespace NewProjectTemplate.ViewModels
         {
             get { return _text; }
             set { SetProperty(ref _text, value); }
+        }
+
+        public string Description
+        {
+            get { return description; }
+            set { SetProperty(ref description, value); }
+        }
+
+        public string Title
+        {
+            get { return title; }
+            set { SetProperty(ref title, value); }
         }
     }
 }

@@ -34,7 +34,9 @@ C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\i
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.dll
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.iOS.dll
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\NewProjectTemplate.dll
+C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\NewProjectTemplate.pdb
+C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.pdb
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Platform.iOS.pdb
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Core.pdb
@@ -50,5 +52,3 @@ C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\obj\i
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.csproj.CoreCompileInputs.cache
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.exe
 C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\obj\iPhoneSimulator\Debug\NewProjectTemplate.iOS.pdb
-C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
-C:\Users\16312581\Desktop\Mobile\MvvMStarterProject\NewProjectTemplate.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml

@@ -15,6 +15,7 @@ namespace NewProjectTemplate.ViewModels
         IListPopulatorService populatorService;
         public string Title { get; private set; }
         public List<MenuItem> MenuItems { get; private set; }
+        //public IMvxAsyncCommand
 
         public MainMenuViewModel(IListPopulatorService service)
         {
@@ -42,7 +43,8 @@ namespace NewProjectTemplate.ViewModels
         public async override void Start()
         {
             base.Start();
-            MenuItems = await populatorService.GetMenuItems();
+            MenuItems = new List<MenuItem> { new MenuItem("Some class 1", this) { Description = "a description" }, new MenuItem("class 2", this) { Description = "second desc" } };
+                //await populatorService.GetMenuItems();
             InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
