@@ -12,6 +12,8 @@ namespace NewProjectTemplate.ViewModels
     {
         private IListPopulatorService _populatorService;
         private string _classList;
+        private string _title;
+        private string _description;
 
         private MenuItem _menuItem;
         public string ClassList {
@@ -22,16 +24,16 @@ namespace NewProjectTemplate.ViewModels
         {
             _populatorService = service;
         }
-        
+
         public override Task Initialize()
         {
-            var classes =_populatorService.GetAvailableCourses();
+            var classes = _populatorService.GetAvailableCourses();
             StringBuilder sb = new StringBuilder();
-            foreach(string s in classes)
+            foreach (string s in classes)
             {
                 sb.Append($"{s} \n");
             }
-           // classes.Select(c => sb.Append($"{c} \n"));
+            // classes.Select(c => sb.Append($"{c} \n"));
             _classList = sb.ToString();
             return base.Initialize();
         }
@@ -44,14 +46,15 @@ namespace NewProjectTemplate.ViewModels
                 Description = item.Description,
                 Title = item.Title
             };
-
+            _title = _menuItem.Title;
+            _description = _menuItem.Description;
 
         }
 
         public IMvxCommand ResetTextCommand => new MvxCommand(ResetText);
         private void ResetText()
         {
-            EditString = "Hello MvvmCross";
+            Title = "Hello MvvmCross";
         }
 
         private string _text = "Hello MvvmCross";
@@ -61,5 +64,19 @@ namespace NewProjectTemplate.ViewModels
             private set {
                 SetProperty(ref _text, value); }
         }
+
+        public string Description
+        {
+            get { return _description; }
+            set { SetProperty(ref _description, value); }
+        }
+
+        public string Title
+        {
+            get { return _title; }
+            set { SetProperty(ref _title, value); }
+        }
+
+
     }
 }

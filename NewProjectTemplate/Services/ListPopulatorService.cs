@@ -36,7 +36,7 @@ namespace NewProjectTemplate.Services
         {
             var webRequest = WebRequest.Create("http://www.wordgenerator.net/application/p.php?id=nouns&type=1");
             webRequest.Credentials = CredentialCache.DefaultCredentials;
-            WebResponse response = await webRequest.GetResponseAsync();
+            WebResponse response =  await webRequest.GetResponseAsync();
             var streamResp = response.GetResponseStream();
 
             if ( streamResp.CanRead)

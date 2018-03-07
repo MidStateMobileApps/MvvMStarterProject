@@ -13,7 +13,7 @@ namespace NewProjectTemplate
                  .AsInterfaces()
                  .RegisterAsLazySingleton(); */
             Mvx.RegisterType<IListPopulatorService, ListPopulatorService>();
-            RegisterNavigationServiceAppStart<ViewModels.MainViewModel>();
+            RegisterNavigationServiceAppStart<ViewModels.MainMenuViewModel>();
         }
     }
 }

@@ -35,15 +35,17 @@ namespace NewProjectTemplate.ViewModels
 
         }
 
-        public async override void Start()
+        public override void Start()
         {
             base.Start();
-            MenuItems = await _populatorService.GetMenuItemsAsync();
+            MenuItems = new List<MenuItem>()
+            { new MenuItem("Some class 1", this) {Description="A Description"},
+            new MenuItem("Some class 2", this) {Description="A Description 2"} }; ///_populatorService.GetMenuItemsAsync();
             InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
         public string Title { get; private set; }
         public List<MenuItem> MenuItems { get; private set; }
-        
+        public IMvxAsyncCommand ShowCommand { get; set; }
     }
 }
