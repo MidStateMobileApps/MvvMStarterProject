@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>2/27/2018 7:17:18 PM</xs:documentation>
+    <xs:documentation>3/6/2018 7:00:37 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -322,10 +322,9 @@
     <xs:attribute ref="android:foregroundTintMode" />
     <xs:attribute ref="android:scrollIndicators" />
     <xs:attribute ref="tools:visibility" />
+    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
-    <xs:attribute ref="android:layout_weight" />
-    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_margin" />
     <xs:attribute ref="android:layout_marginLeft" />
     <xs:attribute ref="android:layout_marginTop" />
@@ -1389,10 +1388,9 @@
     <xs:attribute ref="android:fragmentAllowEnterTransitionOverlap" />
     <xs:attribute ref="android:fragmentAllowReturnTransitionOverlap" />
     <xs:attribute ref="tools:layout" />
+    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
-    <xs:attribute ref="android:layout_weight" />
-    <xs:attribute ref="android:layout_gravity" />
     <xs:attribute ref="android:layout_margin" />
     <xs:attribute ref="android:layout_marginLeft" />
     <xs:attribute ref="android:layout_marginTop" />
@@ -1409,7 +1407,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxTableLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="TableLayout" />
+      <xs:extension base="TableLayout">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxFrameLayout" type="MvvmCross.Binding.Droid.Views.MvxFrameLayout">
@@ -1419,7 +1420,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxFrameLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxRelativeLayout" type="MvvmCross.Binding.Droid.Views.MvxRelativeLayout">
@@ -1429,7 +1433,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxRelativeLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="RelativeLayout" />
+      <xs:extension base="RelativeLayout">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxTimePicker" type="MvvmCross.Binding.Droid.Views.MvxTimePicker">
@@ -1439,7 +1446,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxTimePicker">
     <xs:complexContent mixed="false">
-      <xs:extension base="TimePicker" />
+      <xs:extension base="TimePicker">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxImageView" type="MvvmCross.Binding.Droid.Views.MvxImageView">
@@ -1474,7 +1484,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxLinearLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxSpinner" type="MvvmCross.Binding.Droid.Views.MvxSpinner">
@@ -1484,7 +1497,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxSpinner">
     <xs:complexContent mixed="false">
-      <xs:extension base="Spinner" />
+      <xs:extension base="Spinner">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxRadioGroup" type="MvvmCross.Binding.Droid.Views.MvxRadioGroup">
@@ -1494,7 +1510,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxRadioGroup">
     <xs:complexContent mixed="false">
-      <xs:extension base="RadioGroup" />
+      <xs:extension base="RadioGroup">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView" type="MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView">
@@ -1504,7 +1523,13 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView">
     <xs:complexContent mixed="false">
-      <xs:extension base="AutoCompleteTextView" />
+      <xs:extension base="AutoCompleteTextView">
+        <xs:attribute ref="android:popupTheme" />
+        <xs:attribute ref="android:textEditSuggestionContainerLayout" />
+        <xs:attribute ref="android:textEditSuggestionHighlightStyle" />
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxGridView" type="MvvmCross.Binding.Droid.Views.MvxGridView">
@@ -1514,7 +1539,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxGridView">
     <xs:complexContent mixed="false">
-      <xs:extension base="GridView" />
+      <xs:extension base="GridView">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxDatePicker" type="MvvmCross.Binding.Droid.Views.MvxDatePicker">
@@ -1524,7 +1552,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxDatePicker">
     <xs:complexContent mixed="false">
-      <xs:extension base="DatePicker" />
+      <xs:extension base="DatePicker">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxFrameControl" type="MvvmCross.Binding.Droid.Views.MvxFrameControl">
@@ -1534,7 +1565,10 @@
   </xs:element>
   <xs:complexType name="MvvmCross.Binding.Droid.Views.MvxFrameControl">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="android:pointerIcon" />
+        <xs:attribute ref="android:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="MvvmCross.Binding.Droid.Views.MvxExpandableListView" type="MvvmCross.Binding.Droid.Views.MvxExpandableListView">

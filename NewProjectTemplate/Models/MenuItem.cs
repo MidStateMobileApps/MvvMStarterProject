@@ -15,6 +15,7 @@ namespace NewProjectTemplate.Models
         public MenuItem(string title, MainMenuViewModel parent)
         {
             Parent = parent;
+            Title = title;
             ShowCommand = new MvxCommand<MenuItem>((MenuItem obj) => parent.ShowTheMenuPick(this));
         }
         [JsonIgnore]

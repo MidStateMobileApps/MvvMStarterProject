@@ -55,7 +55,7 @@ namespace NewProjectTemplate.Services
 
         List<string> IListPopulatorService.GetAvailableCourses()
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public async Task<List<MenuItem>> GetMenuItems()

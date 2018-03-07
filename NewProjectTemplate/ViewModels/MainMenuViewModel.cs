@@ -34,14 +34,17 @@ namespace NewProjectTemplate.ViewModels
             ShowViewModel<MainViewModel>(bundle);
         }
 
-        public async override void Start()
+        public override void Start()
         {
             base.Start();
-            MenuItems = await _populatorService.GetMenuItems();
-            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+            MenuItems = new List<MenuItem>()
+            { new MenuItem("Some class 1", this) { Description = "A description"},
+            new MenuItem("Some class 2", this) { Description = "A description 2" } };
         }
 
         public string Title { get; private set; }
         public List<MenuItem> MenuItems { get; private set; }
+
+        public IMvxAsyncCommand ShowCommand { get; set; }
     }
 }
