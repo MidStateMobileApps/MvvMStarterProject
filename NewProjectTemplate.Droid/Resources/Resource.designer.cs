@@ -125,13 +125,19 @@ namespace NewProjectTemplate.Droid
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Main = 2130968576;
+			public const int ListItem_MainMenu = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int MainView = 2130968577;
+			public const int Main = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int SplashScreen = 2130968578;
+			public const int MainMenuView = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int MainView = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int SplashScreen = 2130968580;
 			
 			static Layout()
 			{

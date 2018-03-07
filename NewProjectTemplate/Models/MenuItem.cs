@@ -14,6 +14,7 @@ namespace NewProjectTemplate.Models
 
         public MenuItem(string title, MainMenuViewModel parent)
         {
+            Title = title;
             Parent = parent;
             ShowCommand = new MvxCommand<MenuItem>((MenuItem obj) => parent.ShowTheMenuPicked(this));
         }

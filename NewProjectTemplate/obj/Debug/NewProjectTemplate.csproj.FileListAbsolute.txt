@@ -24,7 +24,7 @@ C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\bin\Debug\Mv
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\bin\Debug\MvvmCross.Binding.pdb
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\bin\Debug\MvvmCross.Localization.pdb
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\bin\Debug\Newtonsoft.Json.xml
-C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\obj\Debug\NewProjectTemplate.csproj.CoreCompileInputs.cache
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\obj\Debug\NewProjectTemplate.dll
 C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\obj\Debug\NewProjectTemplate.pdb
+C:\Users\15078725\Desktop\repo\MvvMProjectMorgan\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache

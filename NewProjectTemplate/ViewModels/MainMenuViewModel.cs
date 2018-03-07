@@ -40,12 +40,15 @@ namespace NewProjectTemplate.ViewModels
             return base.Initialize();
         }
 
-        public async override void Start()
+        public override void Start()
         {
             base.Start();
 
-            MenuItems = await populatorService.GetMenuItems();
-            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+            MenuItems = new List<MenuItem> { new MenuItem("Test", this) {Description = "Filler Description" }, new MenuItem("Test #2", this) {Description = "Another Filler" } };
+                
+                
+                //await populatorService.GetMenuItems();
+         //   InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
         public string Title { get; private set; }

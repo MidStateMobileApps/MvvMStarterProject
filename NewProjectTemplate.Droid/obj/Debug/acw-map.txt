@@ -2,6 +2,10 @@ NewProjectTemplate.Droid.SplashScreen, NewProjectTemplate.Droid;md5a1b3868e5e3fd
 NewProjectTemplate.Droid.SplashScreen, NewProjectTemplate.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a1b3868e5e3fd62e948363d7a3ad5baa.SplashScreen
 NewProjectTemplate.Droid.SplashScreen;md5a1b3868e5e3fd62e948363d7a3ad5baa.SplashScreen
 newprojecttemplate.droid.SplashScreen;md5a1b3868e5e3fd62e948363d7a3ad5baa.SplashScreen
+NewProjectTemplate.Droid.Views.MainMenuView, NewProjectTemplate.Droid;md56e71ee442faf756c1ae929182ff5bd4e.MainMenuView
+NewProjectTemplate.Droid.Views.MainMenuView, NewProjectTemplate.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e71ee442faf756c1ae929182ff5bd4e.MainMenuView
+NewProjectTemplate.Droid.Views.MainMenuView;md56e71ee442faf756c1ae929182ff5bd4e.MainMenuView
+newprojecttemplate.droid.views.MainMenuView;md56e71ee442faf756c1ae929182ff5bd4e.MainMenuView
 NewProjectTemplate.Droid.Views.MainView, NewProjectTemplate.Droid;md56e71ee442faf756c1ae929182ff5bd4e.MainView
 NewProjectTemplate.Droid.Views.MainView, NewProjectTemplate.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e71ee442faf756c1ae929182ff5bd4e.MainView
 NewProjectTemplate.Droid.Views.MainView;md56e71ee442faf756c1ae929182ff5bd4e.MainView
