@@ -4,7 +4,7 @@
   </MonoDevelop.Ide.ItemProperties.NewProjectTemplate.iOS>
   <MonoDevelop.Ide.Workbench ActiveDocument="NewProjectTemplate/ViewModels/MainViewModel.cs">
     <Files>
-      <File FileName="NewProjectTemplate/ViewModels/MainViewModel.cs" Line="27" Column="14" />
+      <File FileName="NewProjectTemplate/ViewModels/MainViewModel.cs" Line="30" Column="57" />
       <File FileName="NewProjectTemplate.iOS/AppDelegate.cs.txt" Line="28" Column="6" />
       <File FileName="NewProjectTemplate.iOS/Views/MainView.cs" Line="26" Column="1" />
       <File FileName="NewProjectTemplate.iOS/ViewController.cs" Line="10" Column="10" />
