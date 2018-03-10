@@ -1,9 +1,9 @@
 # Version: 11.6.1.4 (xcode9.2: db807ec9)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/mtouch/mtouch.exe \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate.iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate.iOS/bin/iPhoneSimulator/Debug/NewProjectTemplate.iOS.app \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate.iOS/bin/iPhoneSimulator/Debug/NewProjectTemplate.iOS.app \
 	--executable \
 	NewProjectTemplate.iOS \
 	--debug \
@@ -18,26 +18,26 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.Core.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.Core.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -321,21 +321,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.Core.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.Core.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Core.5.6.3/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Binding.5.6.3/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/packages/MvvmCross.Platform.5.6.3/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
 	-r \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.dll \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate/bin/Debug/NewProjectTemplate.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
-	/Users/sstilson/Projects/NewProjectTemplate/NewProjectTemplate.iOS/bin/iPhoneSimulator/Debug/NewProjectTemplate.iOS.exe \
+	/Users/sstilson/Source/Repos/NewProjectTemplate/NewProjectTemplate.iOS/bin/iPhoneSimulator/Debug/NewProjectTemplate.iOS.exe \
