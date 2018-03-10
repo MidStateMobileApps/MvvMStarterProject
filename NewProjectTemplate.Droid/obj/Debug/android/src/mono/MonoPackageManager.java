@@ -115,6 +115,7 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
 		"NewProjectTemplate.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
