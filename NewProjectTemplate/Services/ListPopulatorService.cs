@@ -15,21 +15,53 @@ namespace NewProjectTemplate.Services
     {
         public ListPopulatorService()
         {
-        }
-
-        MainMenuViewModel thisParent { get; set; }
-
-        public List<string> GetAvailableCourses()
-        {
-            List<string> courses = new List<string>()
+            Courses = new List<string>()
             {
                 "Object Oriented Programming II",
                 "Intermediate Mobile Apps",
                 "Written Communication",
                 "Software Architecture"
             };
+            Information = new List<string>()
+            {
+                "OOPII Filler",
+                "Mobile Filler",
+                "WritCom Filler",
+                "Software Filler"
+            };
+            Images = new List<string>()
+            {
+                "starstroup",
+                "jobs",
+                "gaul",
+                "noyce"
+            };
+        }
 
-            return courses;
+        List<string> Courses { get; set; }
+
+        List<string> Information { get; set; }
+
+        List<string> Images { get; set; }
+
+        MainMenuViewModel thisParent { get; set; }
+
+        public List<string> GetAvailableCourses()
+        {
+            return Courses;
+        }
+        public string GetInformation(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Information[ix];
+            return string.Empty;
+        }
+
+        public string GetImage(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Images[ix];
+            return string.Empty;
         }
 
         public async Task<string> GetClassDescription()
@@ -71,6 +103,7 @@ namespace NewProjectTemplate.Services
 
             return Items;
         }
+
 
         MvxViewModel IListPopulatorService.Parent { get { return thisParent; } set { thisParent = (MainMenuViewModel)value; } }
     }

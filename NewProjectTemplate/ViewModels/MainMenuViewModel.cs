@@ -32,6 +32,13 @@ namespace NewProjectTemplate.ViewModels
             ShowViewModel<MainViewModel>(bundle);
         }
 
+        public void ShowMoreInfo(MenuItem item)
+        {
+            item.Info = populatorService.GetInformation(item.Title);
+            item.MyDrawable = populatorService.GetImage(item.Title);
+            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+        }
+
         public override Task Initialize()
         {
             populatorService.Parent = this;
@@ -44,11 +51,17 @@ namespace NewProjectTemplate.ViewModels
         {
             base.Start();
 
-            MenuItems = new List<MenuItem> { new MenuItem("Test", this) {Description = "Filler Description" }, new MenuItem("Test #2", this) {Description = "Another Filler" } };
+            MenuItems = new List<MenuItem>
+            {
+                new MenuItem("Object Oriented Programming II", this) {Description = "Tap for more info" },
+                new MenuItem("Intermediate Mobile Apps", this) {Description = "Tap for more info" },
+                new MenuItem("Written Communication", this) {Description = "Tap for more info" },
+                new MenuItem("Software Architecture", this) {Description = "Tap for more info" }
+            };
                 
                 
                 //await populatorService.GetMenuItems();
-         //   InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+         InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
         public string Title { get; private set; }
