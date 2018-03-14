@@ -15,7 +15,7 @@ public class MvxGridView
 	}
 
 
-	public MvxGridView (android.content.Context p0)
+	public MvxGridView (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxGridView.class)
@@ -23,7 +23,7 @@ public class MvxGridView
 	}
 
 
-	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxGridView.class)
@@ -31,7 +31,7 @@ public class MvxGridView
 	}
 
 
-	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == MvxGridView.class)
@@ -39,7 +39,7 @@ public class MvxGridView
 	}
 
 
-	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
+	public MvxGridView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3) throws java.lang.Throwable
 	{
 		super (p0, p1, p2, p3);
 		if (getClass () == MvxGridView.class)

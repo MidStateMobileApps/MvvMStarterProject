@@ -34,14 +34,14 @@ public class MvxExpandableListAdapter
 	}
 
 
-	public MvxExpandableListAdapter ()
+	public MvxExpandableListAdapter () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxExpandableListAdapter.class)
 			mono.android.TypeManager.Activate ("MvvmCross.Binding.Droid.Views.MvxExpandableListAdapter, MvvmCross.Binding.Droid, Version=5.6.3.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MvxExpandableListAdapter (android.content.Context p0)
+	public MvxExpandableListAdapter (android.content.Context p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxExpandableListAdapter.class)

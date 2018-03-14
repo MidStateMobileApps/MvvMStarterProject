@@ -16,7 +16,7 @@ public class MainView
 	}
 
 
-	public MainView ()
+	public MainView () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MainView.class)

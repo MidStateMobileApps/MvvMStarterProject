@@ -20,7 +20,7 @@ public abstract class MvxTabsFragmentActivity
 	}
 
 
-	public MvxTabsFragmentActivity ()
+	public MvxTabsFragmentActivity () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxTabsFragmentActivity.class)

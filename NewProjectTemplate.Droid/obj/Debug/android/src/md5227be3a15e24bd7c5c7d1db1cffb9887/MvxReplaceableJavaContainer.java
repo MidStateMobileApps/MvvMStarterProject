@@ -16,7 +16,7 @@ public class MvxReplaceableJavaContainer
 	}
 
 
-	public MvxReplaceableJavaContainer ()
+	public MvxReplaceableJavaContainer () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxReplaceableJavaContainer.class)

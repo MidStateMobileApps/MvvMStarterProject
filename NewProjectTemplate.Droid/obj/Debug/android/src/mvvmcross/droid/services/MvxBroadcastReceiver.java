@@ -16,7 +16,7 @@ public abstract class MvxBroadcastReceiver
 	}
 
 
-	public MvxBroadcastReceiver ()
+	public MvxBroadcastReceiver () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxBroadcastReceiver.class)

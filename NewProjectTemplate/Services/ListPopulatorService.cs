@@ -14,9 +14,35 @@ namespace NewProjectTemplate.Services
     class ListPopulatorService : IListPopulatorService
     {
         MainMenuViewModel thisParent { get; set; }
+        List<string> Courses { get; set; }
+        List<string> Information { get; set; }
+        List<string> Images { get; set; }
 
         public ListPopulatorService()
         {
+            Courses = new List<string>()
+            {
+                "OOP II",
+                "Intermediate Mobile Apps",
+                "Written Communication",
+                "Software Architecture"
+            };
+
+            Information = new List<string>()
+            {
+                "Learn how to really do stuff well",
+                "Let's make some apple apps",
+                "You write a bunch, hand cramp",
+                "Learn how agile works"
+            };
+
+            Images = new List<string>()
+            {
+                "starstroup",
+                "jobs",
+                "gaul",
+                "noyce"
+            };
         }
 
         MvxViewModel IListPopulatorService.Parent
@@ -33,14 +59,7 @@ namespace NewProjectTemplate.Services
 
         public List<string>  GetAvailableCourses()
         {
-            List<string> courses = new List<string>()
-            {
-                "Object Oriented Programming II",
-                "Intermediate Mobile Apps",
-                "Written Communication",
-                "Software Architecture"
-            };
-            return courses;
+            return Courses;
         }
 
         public async Task<string> GetClassDescription()
@@ -69,6 +88,20 @@ namespace NewProjectTemplate.Services
                 item.Description = await GetClassDescription();
             }
             return items;
+        }
+
+        public string GetInformation(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Information[ix];
+            return string.Empty;
+        }
+
+        public string GetImage(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Images[ix];
+            return string.Empty;
         }
     }
 }

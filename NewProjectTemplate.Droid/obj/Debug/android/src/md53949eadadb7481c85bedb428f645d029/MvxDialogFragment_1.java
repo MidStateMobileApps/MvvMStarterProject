@@ -15,7 +15,7 @@ public abstract class MvxDialogFragment_1
 	}
 
 
-	public MvxDialogFragment_1 ()
+	public MvxDialogFragment_1 () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxDialogFragment_1.class)

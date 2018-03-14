@@ -27,7 +27,7 @@ public class MvxEventSourceDialogFragment
 	}
 
 
-	public MvxEventSourceDialogFragment ()
+	public MvxEventSourceDialogFragment () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxEventSourceDialogFragment.class)

@@ -15,7 +15,7 @@ public class MvxSimpleListItemView
 	}
 
 
-	public MvxSimpleListItemView ()
+	public MvxSimpleListItemView () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxSimpleListItemView.class)

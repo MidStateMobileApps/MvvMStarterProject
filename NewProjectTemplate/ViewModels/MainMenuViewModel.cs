@@ -40,11 +40,23 @@ namespace NewProjectTemplate.ViewModels
             ShowViewModel<MainViewModel>(bundle);
         }
 
+        public void ShowMoreInfo(MenuItem item)
+        {
+            item.Info = populatorService.GetInformation(item.Title);
+            item.MyDrawable = populatorService.GetImage(item.Title);
+            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+        }
+
         public async override void Start()
         {
             base.Start();
-            MenuItems = new List<MenuItem> { new MenuItem("Some class 1", this) { Description = "a description" }, new MenuItem("class 2", this) { Description = "second desc" } };
-                //await populatorService.GetMenuItems();
+            MenuItems = new List<MenuItem>()
+            {
+                new MenuItem("OOP II", this) {Description="Tap for more info"},
+                new MenuItem("Intermediate Mobile Apps", this) {Description="Tap for more info"},
+                new MenuItem("Software Architecture", this) {Description="Tap for more info"},
+                new MenuItem("Written Communication", this) {Description="Tap for more info"}
+            };
             InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
