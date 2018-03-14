@@ -27,4 +27,3 @@ C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectT
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.csproj.CoreCompileInputs.cache
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.dll
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.pdb
-C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache

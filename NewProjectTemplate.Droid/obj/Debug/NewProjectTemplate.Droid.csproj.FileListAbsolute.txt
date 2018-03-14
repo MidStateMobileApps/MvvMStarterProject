@@ -78,6 +78,7 @@ C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectT
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\NewProjectTemplate.Droid.pdb
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\android\bin\com.lovenuggets.NewProjectTemplate.apk
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\listitem_mainmenu.xml
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\mainmenuview.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\main.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\values\strings.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\mipmap-hdpi\icon.png
@@ -89,9 +90,13 @@ C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectT
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\splashscreen.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\mainview.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\splash.png
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\gaul.png
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\jobs.png
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\noyce.png
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\placeholder.png
+C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\drawable\starstroup.png
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\R.cs.flag
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\uploadflags.txt
-C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\res\layout\mainmenuview.xml
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\bin\Debug\NewProjectTemplate.dll.mdb
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\bin\Debug\NewProjectTemplate.Droid.dll.mdb
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\android\assets\MvvmCross.Binding.dll.mdb
@@ -103,8 +108,6 @@ C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectT
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\android\assets\MvvmCross.Platform.Droid.dll.mdb
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\android\assets\NewProjectTemplate.dll.mdb
 C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\obj\Debug\android\assets\NewProjectTemplate.Droid.dll.mdb
-C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate.Droid\bin\Debug\NewProjectTemplate.Droid.dll
-C:\Users\14586012\source\repos\MvvmStarterProject\MvvMStarterProject\NewProjectTemplate\bin\Debug\NewProjectTemplate.dll
 bin\Debug\NewProjectTemplate.dll.mdb
 bin\Debug\Mono.Android.pdb
 bin\Debug\Mono.Android.Export.pdb

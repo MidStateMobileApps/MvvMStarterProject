@@ -35,12 +35,23 @@ namespace NewProjectTemplate.ViewModels
 
         }
 
-        public override void Start()
+        public void ShowMoreInfo(MenuItem item)
+        {
+            item.Info = _populatorService.GetInformation(item.Title);
+            item.MyDrawable = _populatorService.GetImage(item.Title);
+            InvokeOnMainThread(() => RaiseAllPropertiesChanged());
+        }
+
+        public override async void Start()
         {
             base.Start();
-            MenuItems = new List<MenuItem>()
-            { new MenuItem("Some class 1", this) {Description="A Description"},
-            new MenuItem("Some class 2", this) {Description="A Description 2"} }; ///_populatorService.GetMenuItemsAsync();
+           // MenuItems = await _populatorService.GetMenuItemsAsync();
+           MenuItems = new List<MenuItem>()
+            { new MenuItem("OOP II", this) {Description="Tap for more info"},
+            new MenuItem("Intermediate Mobile Apps", this) {Description="Tap for more info"},
+            new MenuItem("Software Architecture", this) {Description="Tap for more info"},
+            new MenuItem("Written Communication", this) {Description="Tap for more info"}
+           }; ///_populatorService.GetMenuItemsAsync();
             InvokeOnMainThread(() => RaiseAllPropertiesChanged());
         }
 
