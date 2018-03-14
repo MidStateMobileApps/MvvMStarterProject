@@ -14,22 +14,52 @@ namespace NewProjectTemplate.Services
     class ListPopulatorService : IListPopulatorService
     {
         MainMenuViewModel ThisParent { get; set; }
+        List<string> Courses{ get; set; }
+        List<string> Information { get; set; }
+        List<string> Images { get; set; }
         public ListPopulatorService()
         {
+            Courses = new List<string>()
+            {
+                "Web Programming I",
+                "Systems Implementation",
+                "Intermediate Mobile Apps"
+            };
+
+            Information = new List<string>()
+            {
+                "Learn about PHP and MySQL",
+                "Team based class with real-world development",
+                "More advanced learning about mobile app development"
+            };
+
+            Images = new List<string>()
+            {
+                "gaul",
+                "jobs",
+                "noyce"
+            };
         }
 
         MvxViewModel IListPopulatorService.Parent { get { return ThisParent; } set { ThisParent = (MainMenuViewModel)value; } }
 
         public List<string> GetAvailableCourses()
         {
-            List<string> courses = new List<string>()
-            {
-                "Web Programming I",
-                "Intermediate Mobile Apps",
-                "Systems Implementation"
-            };
+            return Courses;
+        }
+        
+        public string GetInformation(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Information[ix];
+            return string.Empty;
+        }
 
-            return courses;
+        public string GetImage(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Images[ix];
+            return string.Empty;
         }
 
         public async Task<string> GetClassDescription()
@@ -60,5 +90,6 @@ namespace NewProjectTemplate.Services
             }
             return items;
         }
+
     }
 }

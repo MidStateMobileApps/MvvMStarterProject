@@ -14,6 +14,10 @@ namespace NewProjectTemplate.Services
 
         List<string> GetAvailableCourses();
 
+        string GetInformation(string title);
+
+        string GetImage(string title);
+
         Task<List<MenuItem>> GetMenuItemsAsync();
     }
 }
