@@ -54,7 +54,6 @@ C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTempl
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\bin\Debug\MvvmCross.Binding.pdb
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\bin\Debug\MvvmCross.Localization.pdb
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\bin\Debug\Newtonsoft.Json.xml
-C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\obj\Debug\NewProjectTemplate.csprojResolveAssemblyReference.cache
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\obj\Debug\NewProjectTemplate.csproj.CoreCompileInputs.cache
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\obj\Debug\NewProjectTemplate.dll
 C:\Users\14886572\Desktop\Mobile\MvvMFreudigmann\MvvMFreudigmann\NewProjectTemplate\obj\Debug\NewProjectTemplate.pdb

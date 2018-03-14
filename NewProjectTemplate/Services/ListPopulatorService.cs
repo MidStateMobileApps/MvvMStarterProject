@@ -14,22 +14,55 @@ namespace NewProjectTemplate.Services
     public class ListPopulatorService : IListPopulatorService
     {
         MainMenuViewModel Parent { get; set; }
+        List<string> Courses { get; set; }
+        List<string> Information { get; set; }
+        List<string> Images { get; set; }
+
+
         public ListPopulatorService()
         {
+            Courses = new List<string>()
+            {
+                "OOP II",
+                "Intermediate Mobile Apps",
+                "Written Communication",
+                "Software Architecture"
+            };
+            Information = new List<string>()
+            {
+                "Learn OOP with C#.",
+                "Create mobile apps",
+                "Give speeches and write papers",
+                "This one is a requirement."
+            };
+            Images = new List<string>()
+            {
+                "starstroup",
+                "jobs",
+                "gaul",
+                "noyce"
+            };
         }
 
         MvxViewModel IListPopulatorService.Parent { get { return Parent; } set { Parent = value as MainMenuViewModel; } }
 
         public List<string> GetAvailableCourses()
         {
-            List<string> courses = new List<string>()
-            {
-                "Object Oriented Programming II",
-                "Intermediate Mobile Apps",
-                "Written Communications",
-                "Software Architecture"
-            };
-            return courses;
+            return Courses;
+        }
+        
+        public string GetInformation(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Information[ix];
+            return string.Empty;
+        }
+
+        public string GetImage(string title)
+        {
+            int ix = Courses.IndexOf(title);
+            if (ix >= 0) return Images[ix];
+            return string.Empty;
         }
 
         public async Task<string> GetClassDescription()

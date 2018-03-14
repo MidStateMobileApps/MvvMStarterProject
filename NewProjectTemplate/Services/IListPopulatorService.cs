@@ -13,6 +13,10 @@ namespace NewProjectTemplate.Services
         MvxViewModel Parent { get; set; }
         List<string> GetAvailableCourses();
 
+        string GetInformation(string title);
+
+        string GetImage(string title);
+
         Task<List<MenuItem>> GetMenuItems();
     }
 }
